@@ -516,7 +516,6 @@ public class CalculadoraLoja {
                 System.out.println("Desconto: R$ " + desconto);
                 System.out.println("Valor final: R$ " + valorFinal);
 
-                // ================= NOVO BLOCO =================
                 scanner.nextLine();
 
                 System.out.print("\nNome do cliente: ");
@@ -546,7 +545,6 @@ public class CalculadoraLoja {
                 novoCliente.endereco = new Endereco(estado, cidade, bairro, numero, complemento);
 
                 loja.clientes.add(novoCliente);
-                // ================= FIM =================
 
                 System.out.println("\nEscolha o vendedor responsável:");
                 for (int i = 0; i < loja.vendedores.size(); i++) {
