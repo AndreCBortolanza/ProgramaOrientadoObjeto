@@ -4,8 +4,11 @@ class Vendedor {
     String nome;
     int idade;
     String loja;
+    @SuppressWarnings("unused")
     String cidade;
+    @SuppressWarnings("unused")
     String bairro;
+    @SuppressWarnings("unused")
     String rua;
     double salarioBase;
     double[] salarioRecebido;
@@ -44,8 +47,11 @@ class Vendedor {
 class Cliente {
     String nome;
     int idade;
+    @SuppressWarnings("unused")
     String cidade;
+    @SuppressWarnings("unused")
     String bairro;
+    @SuppressWarnings("unused")
     String rua;
 
     Cliente(String nome, int idade, String cidade, String bairro, String rua) {
@@ -64,6 +70,7 @@ class Cliente {
 
 class Loja {
     String nomeFantasia;
+    @SuppressWarnings("unused")
     String razaoSocial;
     String cnpj;
     String cidade;
@@ -72,6 +79,7 @@ class Loja {
     ArrayList<Vendedor> vendedores;
     ArrayList<Cliente> clientes;
 
+    @SuppressWarnings("Convert2Diamond")
     Loja(String nomeFantasia, String razaoSocial, String cnpj, String cidade, String bairro, String rua) {
         this.nomeFantasia = nomeFantasia;
         this.razaoSocial = razaoSocial;
